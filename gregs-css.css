@@ -1,0 +1,76 @@
+.navbar {
+	padding-left: 10px;
+	padding-right: 50px;
+	background-color: lightgrey;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+}
+body {
+	font-family: sans-serif;
+}
+.navlinks{
+	position: relative;
+	left: 50px;
+}
+.accountlist {
+	display: inline-block; 
+	list-style: none;
+	position:relative;
+	left:88%;
+	bottom: 70px;
+}
+li {
+	display: inline-block;
+}
+.searchbar {
+	position:relative;
+	left:90px;
+	top:100px;
+	height: 30px;
+	width: 500px;
+	float: left;
+}
+.searchbar input {
+	height: 35px;
+	width: 500px;
+	font-size:18pt;
+	
+}
+table {
+	position: relative;
+	top:180px;
+	right:410px;
+}
+td, tr, table {
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+td {
+	padding: 10px;
+}
+.joblinks {
+	position: relative;
+	top:200px;
+	left:46px;
+
+}
+.listitems {
+	display:list-item; /*makes everything a stacked list*/
+	list-style-type: none; /*hides the bullet points*/
+	padding-bottom: 10px;
+}
+input {
+	float: left;
+}
+button {
+	position: relative;
+	left:415px;
+	top:40px;
+	height: 40px;
+	width: 40px;
+}
+.picture {
+	height: 100%;
+}
